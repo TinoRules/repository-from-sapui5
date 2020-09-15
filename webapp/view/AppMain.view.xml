@@ -1,0 +1,24 @@
+<mvc:View controllerName="ui5.study.controller.AppMain"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:f="sap.f"
+	xmlns:tnt="sap.tnt" displayBlock="true"
+	xmlns="sap.m">
+	<Shell id="shell" showLogout="false" appWidthLimited="false">
+		<App id="app">
+			<tnt:ToolPage id="toolPage">
+				<tnt:header>
+					<f:ShellBar title="SAPUI5 Study" showCopilot="false" showNotifications="false" productSwitcherPressed="fnOpen" showSearch="false" showProductSwitcher="true">
+						<f:profile>
+							<f:Avatar initials="UI"/>
+						</f:profile>
+					</f:ShellBar>
+				</tnt:header>
+				<tnt:mainContents>
+					<NavContainer id="pageContainer">
+						<pages></pages>
+					</NavContainer>
+				</tnt:mainContents>
+			</tnt:ToolPage>
+		</App>
+	</Shell>
+</mvc:View>

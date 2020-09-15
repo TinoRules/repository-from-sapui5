@@ -1,0 +1,19 @@
+/* Enter your custom styles here */
+.descText .sapMText {
+    font-size: 1rem !important;
+    margin-top: 10px !important;
+    line-height: 140% !important;
+}
+
+.sapMLnk {
+    color: #0a6ed1;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    font-family: "72","72full",Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}

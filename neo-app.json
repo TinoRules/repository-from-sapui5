@@ -1,0 +1,42 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/study-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/study-resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/study-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/study-resources"
+      },
+      "description": "SAPUI5 Study Resources"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}
